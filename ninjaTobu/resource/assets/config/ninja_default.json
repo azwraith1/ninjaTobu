@@ -1,0 +1,48 @@
+{
+    "1": {
+        "id": 1,
+        "type": "door",
+        "distance": [
+            [
+                375,
+                340
+            ]
+        ],
+        "source": "gate_png",
+        "rotation_angle": 0,
+        "width": "298",
+        "height": 278,
+        "radius": 0,
+        "rotation": 0,
+        "velocity": 0,
+        "degree": 0,
+        "radius1": 0,
+        "cycle": 0,
+        "cycle_point": 0,
+        "hastrap": [],
+        "scale": 1
+    },
+    "2": {
+        "id": 2,
+        "type": "block",
+        "distance": [
+            [
+                480,
+                3962
+            ]
+        ],
+        "source": "4x2block_png",
+        "rotation_angle": 0,
+        "width": 414,
+        "height": 214,
+        "radius": 0,
+        "rotation": 0,
+        "velocity": 0,
+        "degree": 0,
+        "radius1": 0,
+        "cycle": 0,
+        "cycle_point": 0,
+        "hastrap": [],
+        "scale": 1
+    }
+}

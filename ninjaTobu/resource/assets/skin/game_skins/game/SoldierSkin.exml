@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SoldierSkin" currentState="scale1" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="100" height="150"   states="scale1,scale2"  width.scale1="150" width.scale2="150">
+	<e:Image id="enemy" verticalCenter="0" scaleX="1" scaleX.scale2="-1" source="ranged_enemy_idle_png" horizontalCenter.scale2="0" horizontalCenter.scale1="0" horizontalCenter="0"/>
+	<e:Rect id="pzRect" fillAlpha="0" anchorOffsetX="0" width.scale2="60" height.scale2="160" width="100" height="150" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="lightImg" source="enemy_visioncone_png" y="19" scaleX="-0.5" scaleY="0.5" anchorOffsetX="65.5" anchorOffsetY="51" x="64" scaleX.scale2="0.5" x.scale2="7.01" visible="false"/>
+	<e:Image id="exclamImg" source="ranged_enemy_alerted_png" x="6.5" y="-59" visible.scale2="false" visible.scale1="false" visible="false"/>
+	<e:Image id="sniperbody" source="sniper_body_png" y="39.5" scaleX.scale2="-1" horizontalCenter="13" horizontalCenter.scale2="-35" visible.scale2="false" visible="false"/>
+	<ns1:PlayerHp id="hp" width="50" height="5" horizontalCenter="0" y="0" skinName="PlayerHpSkin" rotation="0"/>
+	<e:Label id="poisonText" text="吔屎啦， 梁非凡 ！" y="40.5" textColor="0x01f900" size="18" horizontalCenter="58.5" visible.scale1="false"/>
+	<e:Group id="headGroup" width="30" height="30" rotation="0" anchorOffsetX="15" anchorOffsetY="15" verticalCenter.scale2="-11" x.scale2="43" rotation.scale1="0" x.scale1="29" rotation.scale2="0" y.scale1="33" verticalCenter.scale1="-15" horizontalCenter="-14" y="60">
+		<e:Image id="sniperHead" source="ranged_enemy_head_png" anchorOffsetX="88" anchorOffsetY="39" scaleX.scale2="-1" x.scale2="24.5" rotation.scale1="0" rotation.scale2="0" rotation="0" scaleX="1" scaleY="1" horizontalCenter="20" verticalCenter="0" horizontalCenter.scale2="-20.5" verticalCenter.scale2="-5.5" visible.scale2="false" visible="false"/>
+	</e:Group>
+	<e:Group id="lightGroup" width="430" height="200" anchorOffsetX="215" anchorOffsetY="100" rotation="0" scaleX.scale2="-1" rotation.scale1="0" verticalCenter.scale1="-8" x.scale1="29.67" rotation.scale2="0" horizontalCenter.scale2="6.5" verticalCenter.scale2="-8" horizontalCenter="-50" y="77">
+		<e:Image id="lightImg2" source="enemy_visioncone_png" scaleX="-1" scaleY="1" anchorOffsetX="65.5" anchorOffsetY="51" scaleX.scale2="-1" x.scale2="-59" rotation.scale1="0" rotation="0" verticalCenter="-6" horizontalCenter="90.5" visible="false"/>
+	</e:Group>
+</e:Skin>

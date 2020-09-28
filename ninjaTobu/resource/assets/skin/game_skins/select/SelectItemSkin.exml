@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SelectItemSkin" width="200" height="200" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="icon" source="ninja_weapon3_png" width="100" height="100" horizontalCenter="0" top="0"/>
+	<e:Label id="txt" text="多重射击" y="135.34" horizontalCenter="0" size="22" fontFamily="KaiTi"/>
+</e:Skin>

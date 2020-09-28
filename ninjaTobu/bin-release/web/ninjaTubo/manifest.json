@@ -1,0 +1,19 @@
+{
+	"initial": [
+		"js/egret.min_836d668b.js",
+		"js/egret.web.min_d1451e99.js",
+		"js/eui.min_493403ce.js",
+		"js/res.min_88dd41cb.js",
+		"js/game.min_a9c9e7a1.js",
+		"js/dragonBones.min_6252b9c4.js",
+		"js/promise.min_83a6a5d.js",
+		"js/WXCloudApi.min_ee8270d4.js",
+		"js/particle.min_d717ba80.js",
+		"js/tween.min_f3c29f27.js",
+		"js/underscore.min_af6d9d56.js"
+	],
+	"game": [
+		"js/default.thm_def0ed94.js",
+		"js/main.min_8ad94acc.js"
+	]
+}

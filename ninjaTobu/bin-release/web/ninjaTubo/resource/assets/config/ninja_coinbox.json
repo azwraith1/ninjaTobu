@@ -1,0 +1,25 @@
+{
+    "1": {
+        "id": 1,
+        "type": "coinBox",
+        "distance": [
+            [
+                375,
+                540
+            ]
+        ],
+        "source": "",
+        "rotation_angle": 0,
+        "width": 298,
+        "height": 278,
+        "radius": 0,
+        "rotation": 0,
+        "velocity": 0,
+        "degree": 0,
+        "radius1": 0,
+        "cycle": 0,
+        "cycle_point": 0,
+        "hastrap": [],
+        "scale": 1
+    }
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RestartGameSkin" width="750" height="1334" currentState="failed" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="pass,failed" >
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0" fillAlpha.failed="0" fillAlpha.pass="0"/>
+	<e:Image source="restartbg_png" scale9Grid="8,8,48,48" anchorOffsetX="0" width="144" anchorOffsetY="0" height="146" horizontalCenter.failed="0" y.failed="503.79" width.pass="216" horizontalCenter.pass="0" height.pass="240" verticalCenter.pass="0" x="303" y="594"/>
+	<e:Image source="restartbg_png" verticalCenter="85" horizontalCenter="-50" includeIn="failed"/>
+	<e:Image source="restartbg_png" verticalCenter="85" horizontalCenter="50" includeIn="failed"/>
+	<e:Button id="homeBtn" label="" scaleX="0.4" scaleY="0.4" horizontalCenter="-49.5" verticalCenter="84" includeIn="failed">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tobu_icons_1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="restartBtn" label="" scaleX="0.4" scaleY="0.4" horizontalCenter="49.5" verticalCenter="84" includeIn="failed">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tobu_icons_4_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Rect id="maskRect" left="0" right="0" top="0" bottom="0" fillAlpha="1" fillAlpha.failed="1" touchEnabled="false" touchEnabled.pass="false" fillAlpha.pass="1" alpha="0"/>
+	<e:Group id="nextBtn" width="200" height="45" includeIn="pass" anchorOffsetY="0" y="578" horizontalCenter="0">
+		<e:Image source="tobu_icons_2_png" includeIn="pass" x="12" scaleX="0.4" scaleY="0.4" verticalCenter="0.5"/>
+		<e:Label text="下一关" x="56" y="9" anchorOffsetX="0" width="133" fontFamily="KaiTi" textAlign="center"/>
+	</e:Group>
+	<e:Group id="home" width="200" height="45" includeIn="pass" x="276" y="642" anchorOffsetY="0">
+		<e:Image source="tobu_icons_1_png" x="9" scaleX="0.4" scaleY="0.4" verticalCenter="0"/>
+		<e:Label text="主菜单" anchorOffsetX="0" width="133" fontFamily="KaiTi" textAlign="center" includeIn="pass" scaleX="1" scaleY="1" y="8" x="56"/>
+	</e:Group>
+	<e:Group id="restart" width="200" height="45" includeIn="pass" y="708" anchorOffsetY="0" horizontalCenter="0">
+		<e:Image x="14" scaleX="0.4" scaleY="0.4" verticalCenter="0.5" source="tobu_icons_4_png"/>
+		<e:Label text="重新来" anchorOffsetX="0" width="133" fontFamily="KaiTi" textAlign="center" includeIn="pass" scaleX="1" scaleY="1" y="8" x="56"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,1 @@
+{"version":3,"file":"EndPointManage.js","sourceRoot":"","sources":["../../../../src/game/gameModule/obstacle/EndPointManage.ts"],"names":[],"mappings":";;;AAAA;IAKI;IAAwB,CAAC;IAHzB,sBAAkB,0BAAQ;aAA1B;YACI,MAAM,CAAC,IAAI,CAAC,SAAS,GAAG,IAAI,CAAC,SAAS,IAAI,IAAI,cAAc,EAAE,CAAC;QACnE,CAAC;;;OAAA;IAGM,8BAAK,GAAZ;IAEA,CAAC;IACL,qBAAC;AAAD,CAAC,AAVD,IAUC;AAVK,UAAA,cAAc,6BAUnB,CAAA"}

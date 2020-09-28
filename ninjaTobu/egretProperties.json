@@ -1,0 +1,55 @@
+{
+  "engineVersion": "5.2.33",
+  "compilerVersion": "5.2.33",
+  "template": {},
+  "target": {
+    "current": "web"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "res"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "dragonbones"
+    },
+    {
+      "name": "promise"
+    },
+    {
+      "name": "WXCloudApi",
+      "path": "./libs/WXCloudApi"
+    },
+    {
+      "name": "particle",
+      "path": "./libs/particle"
+    },
+    {
+      "name": "tween",
+      "path": "./libs/tween"
+    },
+    {
+      "name":"underscore",
+      "path":"./libs/underscore"
+    }
+  ],
+  "eui": {
+    "exmlRoot": [
+      "resource/eui_skins"
+    ]
+  },
+  "targets": {
+    "android": {
+      "appname": "疾风忍者",
+      "packagename": "com.companyname"
+    }
+  }
+}

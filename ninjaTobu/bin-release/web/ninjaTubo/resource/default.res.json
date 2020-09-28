@@ -1,0 +1,727 @@
+{
+	"groups": [
+		{
+			"keys": "euiDefault_json,moduleLoadingIcon_png,bulletJumpEffect_ske_json,bulletJumpEffect_tex_json,bulletJumpEffect_tex_png,chaos_trail_png,chest_swipe_png,diamond_2_png,playerActionHand_wall_png,playerActionHang_ceiling_png,playerActionJump_png,playerActionSquat_png,playerActionStand_png,alertBG_png,cancelNormal_png,cancelPress_png,confirmIcon_png,confirmNormal_png,confirmNormalCountDown_png,confirmPress_png,confirmPressCountDown_png,FlowHintBG_png,reward_fnt,marqueeBG_png,CommonAlertSkin_exml,CountDownComponentSkin_exml,ButtonSkin_exml,CheckBoxSkin_exml,HScrollBarSkin_exml,HSliderSkin_exml,ItemRendererSkin_exml,PanelSkin_exml,ProgressBarSkin_exml,RadioButtonSkin_exml,ScrollerSkin_exml,TextInputSkin_exml,ToggleSwitchSkin_exml,VScrollBarSkin_exml,VSliderSkin_exml,BlockSkin_exml,ResetButtonSkin_exml,RestartGameSkin_exml,bamboo_png,bg-test_png,gate_png,lantern_over_png,leaves_png,mainbranch_png,mountain1_png,plague_png,rbranch_png,spikes_png,title_png,wire_png,landEffect_tex2_json,deadParticle2_json,landEffect_tex2_png,deadParticle2_png,landEffect_ske2_json,landEffect_tex_png,landEffect_tex_json,landEffect_ske_json,deadParticle_png,deadParticle_json,4x2block_png,2x2block_png,2x1_png,1x1block_png,restartbg_png,tobu_icons_1_png,tobu_icons_2_png,tobu_icons_4_png,blade_rail_png,goalmarker_png,large_blade_png,rail_hinge_png,small_blade_png,wall_png,2x12_png,arrow_button_png,shuriken_d1_png,BladeSkin_exml,LeafSkin_exml,PlayerIconSkin_exml,SoldierSkin_exml,SpikesSkin_exml,SwingBladeSkin_exml,scene_exml,ninja_level_json,language_json,level1_json,attacking_enemy_0_png,cut_light_ske_json,cut_light_tex_json,cut_light_tex_png,enemy_cut_ske_json,enemy_cut_tex_json,enemy_cut_tex_png,ranged_enemy_head_png,ranged_enemy_idle_png,enemy_visioncone_png,ranged_enemy_alerted_png,ashigaru_yield_png,sniper_body_png,sniper_bullet_png,sniper_head_png,enemy_png,coin_png,ninja_coin_json,ninja_default_json,moon_png,sun_png,gold_chest_png,gold_chest_half1_png,gold_chest_half2_png,gold_lock_png,ninja_coinbox_json,ninja_cofig01_json,ninja_cofig02_json,ninja_cofig39_json,ninja_cofig34_json,ninja_endless11_json,ninja_endless13_json,ninja_endless12_json,ninja_endless10_json,ninja_endless9_json,ninja_endless8_json,ninja_endless7_json,ninja_endless6_json,ninja_endless5_json,ninja_endless4_json,ninja_endless3_json,ninja_endless2_json,ninja_endless1_json,ninja_weapon2_png,ninja_weapon4_png,ninja_weapon3_png,ninja_weapon1_png",
+			"name": "preload"
+		},
+		{
+			"keys": "chest_swipe_png,playerActionHand_wall_png,playerActionHang_ceiling_png,playerActionJump_png,playerActionSquat_png,playerActionStand_png,chaos_trail_png,diamond_2_png,bulletJumpEffect_ske_json,bulletJumpEffect_tex_json,bulletJumpEffect_tex_png,deadParticle_json,deadParticle_png,landEffect_ske_json,landEffect_tex_json,landEffect_tex_png",
+			"name": "player"
+		},
+		{
+			"keys": "4x2block_png,wall_png,gate_png,goalmarker_png,wire_png,rbranch_png,mountain1_png,leaves_png,bg-test_png,2x2block_png,1x1block_png,2x1_png,bamboo_png,lantern_over_png,mainbranch_png,plague_png,title_png",
+			"name": "scene"
+		},
+		{
+			"keys": "restartbg_png,tobu_icons_1_png,tobu_icons_2_png,tobu_icons_4_png",
+			"name": "restart"
+		},
+		{
+			"keys": "ninja_weapon4_png,ninja_weapon3_png,ninja_weapon2_png,ninja_weapon1_png,ninja_weapon6_png,ninja_weapon5_png",
+			"name": "select"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/euiDefault/euiDefault.json",
+			"type": "sheet",
+			"name": "euiDefault_json",
+			"subkeys": "border_png,button_down_png,button_up_png,checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,handle_png,header_png,off_png,on_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,selected_png,thumb_pb_png,thumb_png,track_pb_png,track_png,track_sb_png,tracklight_png"
+		},
+		{
+			"url": "assets/player/chest_swipe.png",
+			"type": "image",
+			"name": "chest_swipe_png"
+		},
+		{
+			"url": "assets/preload/moduleLoadingIcon.png",
+			"type": "image",
+			"name": "moduleLoadingIcon_png"
+		},
+		{
+			"url": "assets/player/playerActionHand_wall.png",
+			"type": "image",
+			"name": "playerActionHand_wall_png"
+		},
+		{
+			"url": "assets/player/playerActionHang_ceiling.png",
+			"type": "image",
+			"name": "playerActionHang_ceiling_png"
+		},
+		{
+			"url": "assets/player/playerActionJump.png",
+			"type": "image",
+			"name": "playerActionJump_png"
+		},
+		{
+			"url": "assets/player/playerActionSquat.png",
+			"type": "image",
+			"name": "playerActionSquat_png"
+		},
+		{
+			"url": "assets/player/playerActionStand.png",
+			"type": "image",
+			"name": "playerActionStand_png"
+		},
+		{
+			"url": "assets/player/chaos_trail.png",
+			"type": "image",
+			"name": "chaos_trail_png"
+		},
+		{
+			"url": "assets/player/diamond_2.png",
+			"type": "image",
+			"name": "diamond_2_png"
+		},
+		{
+			"url": "assets/player/bulletJumpEffect_ske.json",
+			"type": "json",
+			"name": "bulletJumpEffect_ske_json"
+		},
+		{
+			"url": "assets/player/bulletJumpEffect_tex.json",
+			"type": "json",
+			"name": "bulletJumpEffect_tex_json"
+		},
+		{
+			"url": "assets/player/bulletJumpEffect_tex.png",
+			"type": "image",
+			"name": "bulletJumpEffect_tex_png"
+		},
+		{
+			"url": "assets/scene/spikes.png",
+			"type": "image",
+			"name": "spikes_png"
+		},
+		{
+			"url": "assets/scene/bg-test.png",
+			"type": "image",
+			"name": "bg-test_png"
+		},
+		{
+			"url": "assets/scene/gate.png",
+			"type": "image",
+			"name": "gate_png"
+		},
+		{
+			"url": "assets/scene/lantern_over.png",
+			"type": "image",
+			"name": "lantern_over_png"
+		},
+		{
+			"url": "assets/scene/leaves.png",
+			"type": "image",
+			"name": "leaves_png"
+		},
+		{
+			"url": "assets/scene/mainbranch.png",
+			"type": "image",
+			"name": "mainbranch_png"
+		},
+		{
+			"url": "assets/scene/mountain1.png",
+			"type": "image",
+			"name": "mountain1_png"
+		},
+		{
+			"url": "assets/scene/plague.png",
+			"type": "image",
+			"name": "plague_png"
+		},
+		{
+			"url": "assets/scene/rbranch.png",
+			"type": "image",
+			"name": "rbranch_png"
+		},
+		{
+			"url": "assets/scene/title.png",
+			"type": "image",
+			"name": "title_png"
+		},
+		{
+			"url": "assets/scene/wire.png",
+			"type": "image",
+			"name": "wire_png"
+		},
+		{
+			"url": "assets/scene/bamboo.png",
+			"type": "image",
+			"name": "bamboo_png"
+		},
+		{
+			"url": "assets/scene/1x1block.png",
+			"type": "image",
+			"name": "1x1block_png"
+		},
+		{
+			"url": "assets/scene/2x2block.png",
+			"type": "image",
+			"name": "2x2block_png"
+		},
+		{
+			"url": "assets/scene/4x2block.png",
+			"type": "image",
+			"name": "4x2block_png"
+		},
+		{
+			"url": "assets/scene/wall.png",
+			"type": "image",
+			"name": "wall_png"
+		},
+		{
+			"url": "assets/game/arrow_button.png",
+			"type": "image",
+			"name": "arrow_button_png"
+		},
+		{
+			"url": "assets/preload/FlowHintBG.png",
+			"type": "image",
+			"name": "FlowHintBG_png"
+		},
+		{
+			"url": "assets/preload/alert/alertBG.png",
+			"type": "image",
+			"name": "alertBG_png"
+		},
+		{
+			"url": "assets/preload/alert/cancelNormal.png",
+			"type": "image",
+			"name": "cancelNormal_png"
+		},
+		{
+			"url": "assets/preload/alert/cancelPress.png",
+			"type": "image",
+			"name": "cancelPress_png"
+		},
+		{
+			"url": "assets/preload/alert/confirmIcon.png",
+			"type": "image",
+			"name": "confirmIcon_png"
+		},
+		{
+			"url": "assets/preload/alert/confirmNormal.png",
+			"type": "image",
+			"name": "confirmNormal_png"
+		},
+		{
+			"url": "assets/preload/alert/confirmNormalCountDown.png",
+			"type": "image",
+			"name": "confirmNormalCountDown_png"
+		},
+		{
+			"url": "assets/preload/alert/confirmPress.png",
+			"type": "image",
+			"name": "confirmPress_png"
+		},
+		{
+			"url": "assets/preload/alert/confirmPressCountDown.png",
+			"type": "image",
+			"name": "confirmPressCountDown_png"
+		},
+		{
+			"url": "assets/preload/font/reward.fnt",
+			"type": "font",
+			"name": "reward_fnt"
+		},
+		{
+			"url": "assets/preload/marquee/marqueeBG.png",
+			"type": "image",
+			"name": "marqueeBG_png"
+		},
+		{
+			"url": "assets/skin/common_skins/CommonAlertSkin.exml",
+			"type": "bin",
+			"name": "CommonAlertSkin_exml"
+		},
+		{
+			"url": "assets/skin/common_skins/CountDownComponentSkin.exml",
+			"type": "bin",
+			"name": "CountDownComponentSkin_exml"
+		},
+		{
+			"url": "assets/skin/common_skins/eui_skins/ButtonSkin.exml",
+			"type": "bin",
+			"name": "ButtonSkin_exml"
+		},
+		{
+			"url": "assets/skin/common_skins/eui_skins/CheckBoxSkin.exml",
+			"type": "bin",
+			"name": "CheckBoxSkin_exml"
+		},
+		{
+			"url": "assets/skin/common_skins/eui_skins/HScrollBarSkin.exml",
+			"type": "bin",
+			"name": "HScrollBarSkin_exml"
+		},
+		{
+			"url": "assets/skin/common_skins/eui_skins/HSliderSkin.exml",
+			"type": "bin",
+			"name": "HSliderSkin_exml"
+		},
+		{
+			"url": "assets/skin/common_skins/eui_skins/ItemRendererSkin.exml",
+			"type": "bin",
+			"name": "ItemRendererSkin_exml"
+		},
+		{
+			"url": "assets/skin/common_skins/eui_skins/PanelSkin.exml",
+			"type": "bin",
+			"name": "PanelSkin_exml"
+		},
+		{
+			"url": "assets/skin/common_skins/eui_skins/ProgressBarSkin.exml",
+			"type": "bin",
+			"name": "ProgressBarSkin_exml"
+		},
+		{
+			"url": "assets/skin/common_skins/eui_skins/RadioButtonSkin.exml",
+			"type": "bin",
+			"name": "RadioButtonSkin_exml"
+		},
+		{
+			"url": "assets/skin/common_skins/eui_skins/ScrollerSkin.exml",
+			"type": "bin",
+			"name": "ScrollerSkin_exml"
+		},
+		{
+			"url": "assets/skin/common_skins/eui_skins/TextInputSkin.exml",
+			"type": "bin",
+			"name": "TextInputSkin_exml"
+		},
+		{
+			"url": "assets/skin/common_skins/eui_skins/ToggleSwitchSkin.exml",
+			"type": "bin",
+			"name": "ToggleSwitchSkin_exml"
+		},
+		{
+			"url": "assets/skin/common_skins/eui_skins/VScrollBarSkin.exml",
+			"type": "bin",
+			"name": "VScrollBarSkin_exml"
+		},
+		{
+			"url": "assets/skin/common_skins/eui_skins/VSliderSkin.exml",
+			"type": "bin",
+			"name": "VSliderSkin_exml"
+		},
+		{
+			"url": "assets/skin/game_skins/game/BlockSkin.exml",
+			"type": "bin",
+			"name": "BlockSkin_exml"
+		},
+		{
+			"url": "assets/skin/game_skins/game/SpikesSkin.exml",
+			"type": "bin",
+			"name": "SpikesSkin_exml"
+		},
+		{
+			"url": "assets/skin/game_skins/restart/ResetButtonSkin.exml",
+			"type": "bin",
+			"name": "ResetButtonSkin_exml"
+		},
+		{
+			"url": "assets/skin/game_skins/restart/RestartGameSkin.exml",
+			"type": "bin",
+			"name": "RestartGameSkin_exml"
+		},
+		{
+			"url": "assets/restart/restartbg.png",
+			"type": "image",
+			"name": "restartbg_png"
+		},
+		{
+			"url": "assets/restart/tobu_icons_1.png",
+			"type": "image",
+			"name": "tobu_icons_1_png"
+		},
+		{
+			"url": "assets/restart/tobu_icons_2.png",
+			"type": "image",
+			"name": "tobu_icons_2_png"
+		},
+		{
+			"url": "assets/restart/tobu_icons_4.png",
+			"type": "image",
+			"name": "tobu_icons_4_png"
+		},
+		{
+			"url": "assets/game/2x1.png",
+			"type": "image",
+			"name": "2x12_png"
+		},
+		{
+			"url": "assets/scene/goalmarker.png",
+			"type": "image",
+			"name": "goalmarker_png"
+		},
+		{
+			"url": "assets/player/deadParticle.json",
+			"type": "json",
+			"name": "deadParticle_json"
+		},
+		{
+			"url": "assets/player/deadParticle.png",
+			"type": "image",
+			"name": "deadParticle_png"
+		},
+		{
+			"url": "assets/player/landEffect_ske.json",
+			"type": "json",
+			"name": "landEffect_ske_json"
+		},
+		{
+			"url": "assets/player/landEffect_tex.json",
+			"type": "json",
+			"name": "landEffect_tex_json"
+		},
+		{
+			"url": "assets/player/landEffect_tex.png",
+			"type": "image",
+			"name": "landEffect_tex_png"
+		},
+		{
+			"url": "assets/player/landEffect_tex.json",
+			"type": "json",
+			"name": "landEffect_tex2_json"
+		},
+		{
+			"url": "assets/player/deadParticle.json",
+			"type": "json",
+			"name": "deadParticle2_json"
+		},
+		{
+			"url": "assets/player/landEffect_tex.png",
+			"type": "image",
+			"name": "landEffect_tex2_png"
+		},
+		{
+			"url": "assets/player/deadParticle.png",
+			"type": "image",
+			"name": "deadParticle2_png"
+		},
+		{
+			"url": "assets/player/landEffect_ske.json",
+			"type": "json",
+			"name": "landEffect_ske2_json"
+		},
+		{
+			"url": "assets/scene/2x1.png",
+			"type": "image",
+			"name": "2x1_png"
+		},
+		{
+			"url": "assets/game/shuriken_d1.png",
+			"type": "image",
+			"name": "shuriken_d1_png"
+		},
+		{
+			"url": "assets/scene/blade_rail.png",
+			"type": "image",
+			"name": "blade_rail_png"
+		},
+		{
+			"url": "assets/scene/large_blade.png",
+			"type": "image",
+			"name": "large_blade_png"
+		},
+		{
+			"url": "assets/scene/rail_hinge.png",
+			"type": "image",
+			"name": "rail_hinge_png"
+		},
+		{
+			"url": "assets/scene/small_blade.png",
+			"type": "image",
+			"name": "small_blade_png"
+		},
+		{
+			"url": "assets/skin/game_skins/game/BladeSkin.exml",
+			"type": "bin",
+			"name": "BladeSkin_exml"
+		},
+		{
+			"url": "assets/skin/game_skins/game/PlayerIconSkin.exml",
+			"type": "bin",
+			"name": "PlayerIconSkin_exml"
+		},
+		{
+			"url": "assets/skin/game_skins/game/SoldierSkin.exml",
+			"type": "bin",
+			"name": "SoldierSkin_exml"
+		},
+		{
+			"url": "assets/skin/game_skins/game/SwingBladeSkin.exml",
+			"type": "bin",
+			"name": "SwingBladeSkin_exml"
+		},
+		{
+			"url": "assets/skin/game_skins/game/scene.exml",
+			"type": "bin",
+			"name": "scene_exml"
+		},
+		{
+			"url": "assets/skin/game_skins/game/LeafSkin.exml",
+			"type": "bin",
+			"name": "LeafSkin_exml"
+		},
+		{
+			"url": "assets/config/ninja_level.json",
+			"type": "json",
+			"name": "ninja_level_json"
+		},
+		{
+			"url": "assets/preload/config/language.json",
+			"type": "json",
+			"name": "language_json"
+		},
+		{
+			"url": "assets/preload/config/level1.json",
+			"type": "json",
+			"name": "level1_json"
+		},
+		{
+			"url": "assets/enemy/attacking_enemy_0.png",
+			"type": "image",
+			"name": "attacking_enemy_0_png"
+		},
+		{
+			"url": "assets/enemy/cut_light_ske.json",
+			"type": "json",
+			"name": "cut_light_ske_json"
+		},
+		{
+			"url": "assets/enemy/cut_light_tex.json",
+			"type": "json",
+			"name": "cut_light_tex_json"
+		},
+		{
+			"url": "assets/enemy/cut_light_tex.png",
+			"type": "image",
+			"name": "cut_light_tex_png"
+		},
+		{
+			"url": "assets/enemy/enemy_cut_ske.json",
+			"type": "json",
+			"name": "enemy_cut_ske_json"
+		},
+		{
+			"url": "assets/enemy/enemy_cut_tex.json",
+			"type": "json",
+			"name": "enemy_cut_tex_json"
+		},
+		{
+			"url": "assets/enemy/enemy_cut_tex.png",
+			"type": "image",
+			"name": "enemy_cut_tex_png"
+		},
+		{
+			"url": "assets/enemy/ranged_enemy_head.png",
+			"type": "image",
+			"name": "ranged_enemy_head_png"
+		},
+		{
+			"url": "assets/enemy/ranged_enemy_idle.png",
+			"type": "image",
+			"name": "ranged_enemy_idle_png"
+		},
+		{
+			"url": "assets/enemy/enemy_visioncone.png",
+			"type": "image",
+			"name": "enemy_visioncone_png"
+		},
+		{
+			"url": "assets/enemy/ranged_enemy_alerted.png",
+			"type": "image",
+			"name": "ranged_enemy_alerted_png"
+		},
+		{
+			"url": "assets/enemy/ashigaru_yield.png",
+			"type": "image",
+			"name": "ashigaru_yield_png"
+		},
+		{
+			"url": "assets/enemy/sniper_body.png",
+			"type": "image",
+			"name": "sniper_body_png"
+		},
+		{
+			"url": "assets/enemy/sniper_bullet.png",
+			"type": "image",
+			"name": "sniper_bullet_png"
+		},
+		{
+			"url": "assets/enemy/sniper_head.png",
+			"type": "image",
+			"name": "sniper_head_png"
+		},
+		{
+			"url": "assets/enemy/enemy.png",
+			"type": "image",
+			"name": "enemy_png"
+		},
+		{
+			"url": "assets/scene/coin.png",
+			"type": "image",
+			"name": "coin_png"
+		},
+		{
+			"url": "assets/config/ninja_coin.json",
+			"type": "json",
+			"name": "ninja_coin_json"
+		},
+		{
+			"url": "assets/config/ninja_default.json",
+			"type": "json",
+			"name": "ninja_default_json"
+		},
+		{
+			"url": "assets/scene/moon.png",
+			"type": "image",
+			"name": "moon_png"
+		},
+		{
+			"url": "assets/scene/sun.png",
+			"type": "image",
+			"name": "sun_png"
+		},
+		{
+			"url": "assets/scene/gold_chest.png",
+			"type": "image",
+			"name": "gold_chest_png"
+		},
+		{
+			"url": "assets/scene/gold_chest_half1.png",
+			"type": "image",
+			"name": "gold_chest_half1_png"
+		},
+		{
+			"url": "assets/scene/gold_chest_half2.png",
+			"type": "image",
+			"name": "gold_chest_half2_png"
+		},
+		{
+			"url": "assets/scene/gold_lock.png",
+			"type": "image",
+			"name": "gold_lock_png"
+		},
+		{
+			"url": "assets/config/ninja_coinbox.json",
+			"type": "json",
+			"name": "ninja_coinbox_json"
+		},
+		{
+			"url": "assets/config/ninja_cofig01.json",
+			"type": "json",
+			"name": "ninja_cofig01_json"
+		},
+		{
+			"url": "assets/config/ninja_cofig02.json",
+			"type": "json",
+			"name": "ninja_cofig02_json"
+		},
+		{
+			"url": "assets/config/ninja_cofig39.json",
+			"type": "json",
+			"name": "ninja_cofig39_json"
+		},
+		{
+			"url": "assets/config/ninja_cofig34.json",
+			"type": "json",
+			"name": "ninja_cofig34_json"
+		},
+		{
+			"url": "assets/config/ninja_endless11.json",
+			"type": "json",
+			"name": "ninja_endless11_json"
+		},
+		{
+			"url": "assets/config/ninja_endless13.json",
+			"type": "json",
+			"name": "ninja_endless13_json"
+		},
+		{
+			"url": "assets/config/ninja_endless12.json",
+			"type": "json",
+			"name": "ninja_endless12_json"
+		},
+		{
+			"url": "assets/config/ninja_endless10.json",
+			"type": "json",
+			"name": "ninja_endless10_json"
+		},
+		{
+			"url": "assets/config/ninja_endless8.json",
+			"type": "json",
+			"name": "ninja_endless8_json"
+		},
+		{
+			"url": "assets/config/ninja_endless5.json",
+			"type": "json",
+			"name": "ninja_endless5_json"
+		},
+		{
+			"url": "assets/config/ninja_endless4.json",
+			"type": "json",
+			"name": "ninja_endless4_json"
+		},
+		{
+			"url": "assets/config/ninja_endless6.json",
+			"type": "json",
+			"name": "ninja_endless6_json"
+		},
+		{
+			"url": "assets/config/ninja_endless9.json",
+			"type": "json",
+			"name": "ninja_endless9_json"
+		},
+		{
+			"url": "assets/config/ninja_endless2.json",
+			"type": "json",
+			"name": "ninja_endless2_json"
+		},
+		{
+			"url": "assets/config/ninja_endless7.json",
+			"type": "json",
+			"name": "ninja_endless7_json"
+		},
+		{
+			"url": "assets/config/ninja_endless1.json",
+			"type": "json",
+			"name": "ninja_endless1_json"
+		},
+		{
+			"url": "assets/config/ninja_endless3.json",
+			"type": "json",
+			"name": "ninja_endless3_json"
+		},
+		{
+			"url": "assets/enemy/ninja_weapon2.png",
+			"type": "image",
+			"name": "ninja_weapon2_png"
+		},
+		{
+			"url": "assets/enemy/ninja_weapon4.png",
+			"type": "image",
+			"name": "ninja_weapon4_png"
+		},
+		{
+			"url": "assets/enemy/ninja_weapon3.png",
+			"type": "image",
+			"name": "ninja_weapon3_png"
+		},
+		{
+			"url": "assets/enemy/ninja_weapon1.png",
+			"type": "image",
+			"name": "ninja_weapon1_png"
+		},
+		{
+			"url": "assets/enemy/ninja_weapon6.png",
+			"type": "image",
+			"name": "ninja_weapon6_png"
+		},
+		{
+			"url": "assets/enemy/ninja_weapon5.png",
+			"type": "image",
+			"name": "ninja_weapon5_png"
+		}
+	]
+}

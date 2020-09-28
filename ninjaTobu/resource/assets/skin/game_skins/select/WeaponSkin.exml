@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WeaponSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="100" height="200">
+	<e:Image id="weapon" horizontalCenter="0" verticalCenter="0" source="ninja_weapon5_png"/>
+</e:Skin>

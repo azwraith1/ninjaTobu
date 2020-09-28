@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GoldBoxSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="box" source="gold_chest_png" horizontalCenter="0" verticalCenter="0" scaleX="0.5" scaleY="0.5" anchorOffsetX="215" anchorOffsetY="191" rotation="0"/>
+	<e:Image id="lock" source="gold_lock_png" horizontalCenter="0" verticalCenter="0" scaleX="0.3" scaleY="0.3"/>
+	<e:Rect id="pzRect" width="135.73" height="84.67" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0" horizontalCenter="1" verticalCenter="-2.5"/>
+	<e:Image id="leftBox" source="gold_chest_half1_png" scaleX="0.5" scaleY="0.5" horizontalCenter="0" verticalCenter="0" anchorOffsetX="215" anchorOffsetY="191" rotation="0" visible="false"/>
+	<e:Image id="rightBox" source="gold_chest_half2_png" scaleX="0.5" scaleY="0.5" horizontalCenter="0" verticalCenter="0" anchorOffsetX="215" anchorOffsetY="191" rotation="0" visible="false"/>
+</e:Skin>

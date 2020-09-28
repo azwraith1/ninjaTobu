@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ResetButtonSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="126">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0x2b2b2b"/>
+	<e:Image id="ima" source="tobu_icons_4_png" verticalCenter="0" scaleX="0.4" scaleY="0.4" left="10"/>
+	<e:Label id="text" text="重试" fontFamily="NSimSun" x="58.6" anchorOffsetX="0" verticalCenter="0" width="64.4"/>
+</e:Skin>

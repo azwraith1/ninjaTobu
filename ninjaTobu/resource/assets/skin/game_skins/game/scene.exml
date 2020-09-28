@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="scene" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="bg-test_png" width="750" height="1334" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="sun" y="340" x="360" source="sun_png"/>
+	<e:Group id="group" width="750" height="1334" horizontalCenter="0" y="0">
+	</e:Group>
+	<e:Group id="menuGroup" left="0" right="0" top="0" bottom="0">
+		<e:Image id="goldmodel" source="restartbg_png" y="611" anchorOffsetX="0" width="345" scale9Grid="8,8,48,48" horizontalCenter="0.5" height="80" x="203" scaleX="1" scaleY="1"/>
+		<e:Label text="金币模式" y="634.37" horizontalCenter="0" touchEnabled="false" x="315" scaleX="1" scaleY="1"/>
+		<e:Image id="levelmodel" source="restartbg_png" y="715" anchorOffsetX="0" width="345" scale9Grid="8,8,48,48" horizontalCenter="0.5" height="80" x="203" scaleX="1" scaleY="1"/>
+		<e:Label text="关卡模式" y="741.04" horizontalCenter="0" touchEnabled="false" x="315" scaleX="1" scaleY="1"/>
+		<e:Image id="killmodel" source="restartbg_png" y="825" anchorOffsetX="0" width="345" scale9Grid="8,8,48,48" horizontalCenter="0.5" height="80" x="203" scaleX="1" scaleY="1"/>
+		<e:Label text="无尽模式" y="849.03" horizontalCenter="0" touchEnabled="false" x="315" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="scoreGroup" height="59" top="15" left="0" right="0" anchorOffsetY="0">
+		<e:Label id="scoreLable" text="0" top="15" left="305" fontFamily="KaiTi" textAlign="center" x="209" y="0" scaleX="1" scaleY="1"/>
+		<e:Label id="maxScore" text="0" fontFamily="KaiTi" left="514" top="15" textAlign="center" x="418" y="0" scaleX="1" scaleY="1"/>
+		<e:Label text="分数" top="15" left="232" textAlign="center" fontFamily="KaiTi" x="136" y="0" scaleX="1" scaleY="1"/>
+		<e:Label text="最高分" fontFamily="KaiTi" left="411" top="15" x="315" y="0" scaleX="1" scaleY="1"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<ns1:PlayerDarts id="playerDarts" height="50" y="59" touchEnabled="false" skinName="PlayerBulletSkin" width="560" horizontalCenter="0"/>
+	<e:Rect id="maskRect1" left="0" right="0" top="0" bottom="0" touchEnabled="false" fillColor="0xF4F3DE" fillAlpha="0.1"/>
+	<e:Rect id="maskRect" left="0" right="0" top="0" bottom="0" touchEnabled="false" fillAlpha="0" fillColor="0x000000"/>
+</e:Skin>

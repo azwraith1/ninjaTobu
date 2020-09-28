@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LeafSkin" width="400" height="300" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="leaves_png" x="104" y="40"/>
+</e:Skin>

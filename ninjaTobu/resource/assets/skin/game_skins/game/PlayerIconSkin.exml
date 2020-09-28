@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlayerIconSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="59" height="91">
+	<e:Image id="role" scaleX="1" scaleY="1" source="playerActionStand_png" pixelHitTest="true" horizontalCenter="0" verticalCenter="0" rotation="0"/>
+	<e:Rect id="roleRect" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0" width="24.64" height="81.17" x="23" y="17"/>
+	<ns1:PlayerHp id="hp" width="50" height="5" y="0.8" horizontalCenter="0.5" skinName="PlayerHpSkin"/>
+</e:Skin>

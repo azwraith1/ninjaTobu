@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SelectSceneSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image alpha="0.5" source="bg-test_png"  left="0" right="0" top="0" bottom="0"/>
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Label id="titleText" text="武器选择" y="420.67" anchorOffsetX="0" width="246.73" anchorOffsetY="0" height="48.18" textAlign="center"
+		         verticalAlign="middle" size="42" fontFamily="KaiTi" horizontalCenter="0.5" />
+		<e:Scroller id="weaponScroller" width="600" height="200" horizontalCenter="0" scrollPolicyV="off" bounces="false"
+		            touchEnabled="true" touchChildren="true" verticalCenter="-27">
+			<e:Group id="weaponGroup" touchEnabled="true" touchChildren="true">
+				<e:layout>
+					<e:TileLayout orientation="rows" horizontalGap="0" verticalGap="0" horizontalAlign="center" verticalAlign="middle"
+					              rowHeight="200" requestedRowCount="1" columnWidth="200" rowAlign="justifyUsingHeight" />
+				</e:layout>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

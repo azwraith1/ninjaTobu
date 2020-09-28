@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BulletSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bullet" horizontalCenter="0" verticalCenter="0" scaleX="1" scaleY="1" rotation="0" anchorOffsetX="25" anchorOffsetY="57" source="ninja_weapon5_png"/>
+</e:Skin>
